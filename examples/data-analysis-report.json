@@ -1,0 +1,39 @@
+{
+  "task": {
+    "action": "Analyze customer feedback data and provide actionable insights for product improvement",
+    "type": "analysis",
+    "objective": "Identify key areas for product improvement based on customer satisfaction data to justify development budget",
+    "requirements": {
+      "include": ["customer satisfaction metrics", "ROI analysis", "actionable recommendations", "trend analysis"],
+      "avoid": ["technical jargon", "internal codes", "speculative claims", "personal opinions"],
+      "structure": "executive summary, key findings, detailed analysis, recommendations, next steps",
+      "citations": "REQUIRED"
+    }
+  },
+  "scope": {
+    "audience": "Product management team and stakeholders",
+    "domain": "e-commerce",
+    "context": "Customer survey responses from Q4 2023 with satisfaction scores and comments. This analysis will be presented to stakeholders to justify product development budget allocation."
+  },
+  "role": {
+    "primary": "data_scientist",
+    "secondary": "business_analyst",
+    "specialization": "customer_analytics"
+  },
+  "output": {
+    "style": "professional",
+    "format": "markdown",
+    "constraints": {
+      "length": "1500 words",
+      "language": "en"
+    },
+    "generation": {
+      "temperature": 0.3
+    }
+  },
+  "examples": [
+    "Customer satisfaction increased by 15% in Q4, with mobile app users showing highest engagement",
+    "ROI analysis shows 3:1 return on customer experience improvements",
+    "Recommendation: Prioritize mobile app optimization based on user feedback patterns"
+  ]
+} 

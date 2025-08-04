@@ -1,0 +1,39 @@
+{
+  "task": {
+    "action": "Create an engaging blog post about sustainable living for a wellness website",
+    "type": "creation",
+    "objective": "Inspire readers to adopt eco-friendly habits while maintaining an engaging and relatable tone",
+    "requirements": {
+      "include": ["practical tips", "environmental impact", "personal stories", "actionable steps"],
+      "avoid": ["preachy tone", "complex scientific terms", "overwhelming statistics"],
+      "structure": "hook, personal story, practical tips, environmental impact, call to action",
+      "citations": "OPTIONAL"
+    }
+  },
+  "scope": {
+    "audience": "Young professionals aged 25-35 interested in wellness and sustainability",
+    "domain": "lifestyle and wellness",
+    "context": "The blog will be featured on a popular wellness website with 100K+ monthly readers. The goal is to convert readers into newsletter subscribers while providing valuable content."
+  },
+  "role": {
+    "primary": "content_writer",
+    "secondary": "lifestyle_expert",
+    "specialization": "sustainability and wellness"
+  },
+  "output": {
+    "style": "casual",
+    "format": "markdown",
+    "constraints": {
+      "length": "800 words",
+      "language": "en"
+    },
+    "generation": {
+      "temperature": 0.8
+    }
+  },
+  "examples": [
+    "I never thought switching to a bamboo toothbrush would make such a difference until I saw my plastic waste cut in half",
+    "Here are 5 simple swaps that took me from eco-anxious to eco-confident in just one month",
+    "The best part? These changes actually saved me money while helping the planet"
+  ]
+} 

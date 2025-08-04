@@ -1,0 +1,39 @@
+{
+  "task": {
+    "action": "Draft a privacy policy for a mobile app that collects user data",
+    "type": "creation",
+    "objective": "Create a legally compliant privacy policy that is clear and understandable for users while meeting regulatory requirements",
+    "requirements": {
+      "include": ["data collection practices", "user rights", "contact information", "legal basis for processing"],
+      "avoid": ["ambiguous language", "technical jargon", "overly complex legal terms"],
+      "structure": "introduction, data collection, data usage, user rights, contact information, effective date",
+      "citations": "REQUIRED"
+    }
+  },
+  "scope": {
+    "audience": "Mobile app users and legal compliance officers",
+    "domain": "legal and technology",
+    "context": "The app collects user location, preferences, and usage data. Must comply with GDPR, CCPA, and other privacy regulations. The policy will be displayed in-app and on the company website."
+  },
+  "role": {
+    "primary": "lawyer",
+    "secondary": "privacy_expert",
+    "specialization": "data protection and privacy law"
+  },
+  "output": {
+    "style": "formal",
+    "format": "markdown",
+    "constraints": {
+      "length": "1200 words",
+      "language": "en"
+    },
+    "generation": {
+      "temperature": 0.2
+    }
+  },
+  "examples": [
+    "We collect your location data only when you grant explicit permission through your device settings",
+    "You have the right to request deletion of your personal data at any time by contacting our privacy team",
+    "This privacy policy is effective as of January 1, 2024, and will be updated as our practices evolve"
+  ]
+} 

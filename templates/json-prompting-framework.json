@@ -1,0 +1,35 @@
+{
+  "task": {
+    "action": "WHAT_TO_DO",
+    "type": "analysis | creation | review | translation | summary | explanation",
+    "objective": "GOAL_OR_PURPOSE",
+    "requirements": {
+      "include": ["MUST_WORDS"],
+      "avoid": ["NO_WORDS"],
+      "structure": "REQUIRED_STRUCTURE_OR_NONE",
+      "citations": "REQUIRED | OPTIONAL | NONE"
+    }
+  },
+  "scope": {
+    "audience": "WHO_READS_IT",
+    "domain": "SPECIFIC_FIELD (medicine, technology, finance, education, legal, etc.)",
+    "context": "BACKGROUND_INFO_OR_SPECIFIC_DATA_TO_PROCESS"
+  },
+  "role": {
+    "primary": "EXPERT_ROLE (e.g., data_scientist, lawyer, teacher, doctor)",
+    "secondary": "SECONDARY_ROLE_OR_NONE",
+    "specialization": "SPECIFIC_AREA_OF_EXPERTISE"
+  },
+  "output": {
+    "style": "formal | casual | fun | professional | creative | analytical",
+    "format": "plain | markdown | html | json",
+    "constraints": {
+      "length": "MAX_WORDS_OR_NONE",
+      "language": "es | en | fr | etc"
+    },
+    "generation": {
+      "temperature": 0.7
+    }
+  },
+  "examples": ["ANY_EXAMPLE"]
+}
